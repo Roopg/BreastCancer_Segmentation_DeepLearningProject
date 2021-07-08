@@ -18,6 +18,7 @@ Metadata for each abnormality is included as an associated CSV file containing t
 ● Pathology: Benign, Benign without call-back, or Malignant
 ● Subtlety rating: Radiologists’ rating of difficulty in viewing the abnormality in the image
 ● Path to image files There are individual files for mass and calcification training and test sets: 
+
 ● mass_case_description_train_set.csv 
 ● mass_case_description_test_set.csv
 ● calc_case_description_train_set.csv 
@@ -39,5 +40,4 @@ The code is divided into the following main sections-
 9. Model compiled using "Dice" Metric and "Focal Loss" and Adam optimizers.
 10. THe model is trained using callbacks and the saved model is used to predict a binary mask for the test images.
 11. the predicted mask is compared to the actual ground truth images and the IOU (Jaccard Index) and Dice Coefficient(F score) is calculated.
-12. 
-13. 
+
